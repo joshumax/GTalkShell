@@ -99,7 +99,7 @@ class GTalkShell(GtalkRobot):
 	self.process = None
 	self.process_ret = True
 	self.p_t = None
-    	self.setState('available', "GTalkShell Instance")
+    	self.setState('available', "GTalkShell Instance Is Available")
     	self.start(self.userpass[0], self.userpass[1])
 
     def shellInit(self):
